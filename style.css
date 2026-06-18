@@ -1,0 +1,27 @@
+body{
+  background:#f5f6f8;
+  font-family:sans-serif;
+}
+
+.container{
+  max-width:700px;
+  margin:50px auto;
+  background:white;
+  border-radius:20px;
+  padding:40px;
+}
+
+button{
+  padding:12px 20px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+#status{
+  margin-bottom:20px;
+}
+
+#progress{
+  margin-top:30px;
+  white-space:pre-wrap;
+}
