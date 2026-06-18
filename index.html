@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1">
+
+  <title>PhotoSync Upload</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css">
+
+  <script
+    src="https://accounts.google.com/gsi/client"
+    async
+    defer>
+  </script>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>📸 PhotoSync Upload</h1>
+
+  <div id="status">
+    尚未登入
+  </div>
+
+  <button id="loginBtn">
+    Google 登入
+  </button>
+
+  <br><br>
+
+  <input
+    type="file"
+    id="fileInput"
+    multiple
+    accept="image/*">
+
+  <br><br>
+
+  <button
+    id="uploadBtn"
+    disabled>
+    開始上傳
+  </button>
+
+  <div id="progress">
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
